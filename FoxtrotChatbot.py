@@ -24,6 +24,13 @@ intent_keywords = {"hallo": "hallo",
                   "krank": "krankmeldung",
                   "email": "email",
                   "mail": "email",
+                  "standort": "standort",
+                  "maskenpflicht": "maskenpflicht",
+                  "onlineunterricht": "onlineunterricht",
+                  "lernfelder": "lernfelder",
+                  "leistungsnachweise": "leistungsnachweise",
+                  "prüfung": "prüfung",
+                  "abschlussprüfung": "prüfung"
                   }
 
 random_answers = ["Interessant ...", "Ich verstehe ...", "Leider habe ich hierauf keine passende Antwort.", "Können Sie die Frage anders formulieren?"]
@@ -41,7 +48,12 @@ intent_answers = {"hallo": "Hallo, wie kann ich Ihnen helfen?",
                   "vertretungsplan": "Der Link für den Vertretungsplan ist folgender: https://stundenplan.hamburg.de/WebUntis/monitor?school=hh5918&monitorType=subst&format=FgarV5344HGhuasdfz",
                   "krankenmeldung": "Wenn Sie Krank sind melden Sie sich bitte in Ihrem jeweiligen Betrieb krank und schreiben eine E-Mail an Ihren Klassenlehrer und den jeweiligen Fachlehrer für den Tag.",
                   "email": "Unsere Schulemail lautet: bs14@hibb.hamburg.de",
-                  "": "email",
+                  "standot": "Unsere Schule befindet sich auf der Elbinsel Wilhelmsburg. Adresse: Dratelnstraße 26, 21109 Hamburg",
+                  "maskenpflicht": "Aktuell besteht an unserer Schule Maskenpflicht.",
+                  "onlineunterricht": "Seit dem neuen Schuljahr findet wieder eine 100 prozentige Präsenzpflicht. Nur in Aussnahmefällen kann man von Zuhause aus teilnehmen.",
+                  "lernfelder": "Unsere Lernfelder stehen im Moodle-Klassenkurs.",
+                  "leistungsnachweise": "In jedem Fach müssen zwei Leistungsnachweise pro Jahr abgegeben werden. Davon einer mündlich und einer schriftlich",
+                  "prüfung": "Für mehr Informationen über die Abschlussprüfungen kontaktieren Sie bitte Ihren Betrieb."
                   }
 
 print("Willkommen zum ITECH-Chatbot")
